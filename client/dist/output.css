@@ -513,16 +513,11 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.p-2 {
+  padding: 0.5rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-red {
+  --tw-bg-opacity: 1;
+  background-color: red;
 }
-
-.underline {
-  text-decoration-line: underline;
-}
-

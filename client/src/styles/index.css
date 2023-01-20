@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-red {
+    --tw-bg-opacity: 1;
+    background-color: red;
+  }

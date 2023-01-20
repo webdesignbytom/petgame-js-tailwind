@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../dist/output.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
     <title>Pet Game</title>
-</head>
-<body>
-    <h1 class="text-5xl font-bold underline">
-        Hello world!
-      </h1>
-      <section class="text-1xl font-bold underline">hello</section>
-</body>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        font-family: 'Inter', sans-serif;
+      }
+      @supports (font-variation-settings: normal) {
+        :root {
+          font-family: 'Inter var', sans-serif;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main__container" class="main bg-red p-2">
+      <button>PUSH</button>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>
